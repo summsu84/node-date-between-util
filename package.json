@@ -1,0 +1,22 @@
+{
+  "name": "date-between-with-moment-teamjw",
+  "version": "1.1.0",
+  "description": "this is date util between dates for node js by teamjw ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summsu84/node-date-between-util.git"
+  },
+  "author": "teamjw-summsu84",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/summsu84/node-date-between-util.git"
+  },
+  "homepage": "https://github.com/summsu84/node-date-between-util.git#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
