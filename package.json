@@ -1,6 +1,6 @@
 {
-  "name": "date-between-with-moment-teamjw",
-  "version": "1.1.0",
+  "name": "date-between-teamjw",
+  "version": "0.0.1",
   "description": "this is date util between dates for node js by teamjw ",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,12 @@
   "homepage": "https://github.com/summsu84/node-date-between-util.git#readme",
   "dependencies": {
     "moment": "^2.29.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "datebetween"
+  ]
 }
