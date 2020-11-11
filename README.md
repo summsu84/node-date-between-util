@@ -5,19 +5,31 @@
 
 This is just designed to help to handle date between start date and end date.
 
-## Simple String Util
+## Date List Between StartDate and EndDate Util
 
-This module is handle string object like inserting value at specific position, replace text, remove space, or etc.
+This module is handle getting date list between startDate and endDate.
 
 ```js
 const betweenDateUtil = require('./index').BetweenDateUtil;
 
 ## getBetweenDates (startDate, endDate)
 ## -> This function is get dates between start date and end date except of Saturday and Sunday
-console.log(betweenDateUtil.getBetweenDates('2020-10-01', '2020-10-10'));
+console.log(betweenDateUtil.getAllDateListBetweenDates('2020-10-01', '2020-10-10'));
 
 ```
 
 ---
 
+## Date List Between StartDate and EndDate Except Of Working Date 
+
+This module is handle getting date list between startDate and endDate except of working date.
+
+```js
+const betweenDateUtil = require('./index').BetweenDateUtil;
+
+## getBetweenDates (startDate, endDate)
+## -> This function is get dates between start date and end date except of Saturday and Sunday
+console.log(betweenDateUtil.getWorkingDateListBetweenDates('2020-10-01', '2020-10-10'));
+
+```
 
